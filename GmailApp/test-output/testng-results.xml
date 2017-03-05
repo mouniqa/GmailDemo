@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="16657" started-at="2017-03-05T14:28:33Z" finished-at="2017-03-05T14:28:49Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="16657" started-at="2017-03-05T14:28:33Z" finished-at="2017-03-05T14:28:49Z">
+      <class name="com.gmail.www.GmailApp.Login">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gmail.www.GmailApp.Login@1d057a39]" name="openApp" duration-ms="16636" started-at="2017-03-05T19:58:33Z" finished-at="2017-03-05T19:58:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.gmail.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mouny.jv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mouni@24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+      </class> <!-- com.gmail.www.GmailApp.Login -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>
